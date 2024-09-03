@@ -322,7 +322,7 @@ img {
   color: #404bbf;
 }
 
-.address-list {
+.mobile-address-list-ul {
   display: flex;
   flex-direction: column;
   gap: 24px;
@@ -380,6 +380,29 @@ img {
 /* mobile-hero-section */
 
 .section-hero-position {
+  background-color: #2e2f42;
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/mobile-bg-opt.jpg);
+
+  max-width: 320px;
+  margin: 0 auto;
+}
+
+.hero-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #ffffff;
+  margin: 0 auto;
+}
+
+.hero-margin {
+  padding: 72px 52px;
 }
 
 @media screen and (min-width: 768px) {
