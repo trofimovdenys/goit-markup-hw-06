@@ -59,11 +59,39 @@
             </li>
           </ul>
         </address>
-        <button class="burger-button-menu">
+        <button class="burger-button-menu" data-menu-open>
           <svg width="24" height="24" class="icon-burger-button">
             <use href="./images/icons.svg#icon-burger-button-menu"></use>
           </svg>
         </button>
+      </div>
+      <div class="mobile-menu" data-menu>
+        <div class="container mobile-menu-container">
+          <button class="mobile-menu-close-button" data-menu-close>
+            <svg width="8" height="8" class="icon-close-button">
+              <use href="./images/icons.svg#icon-close-button"></use>
+            </svg>
+          </button>
+          <nav class="mobile-menu-nav">
+            <ul>
+              <li>Studio</li>
+              <li>Portfolio</li>
+              <li>Contacts</li>
+            </ul>
+          </nav>
+          <address>
+            <ul>
+              <li><a href="">+11 (000) 111-11-11</a></li>
+              <li><a href="">info@devstudio.com</a></li>
+            </ul>
+          </address>
+          <ul>
+            <li><a href="https://www.instagram.com/"></a></li>
+            <li><a href="https://x.com/"></a></li>
+            <li><a href="https://www.facebook.com/"></a></li>
+            <li><a href="https://www.linkedin.com/"></a></li>
+          </ul>
+        </div>
       </div>
     </header>
     <!-- main -->
@@ -587,5 +615,6 @@
     </div>
 
     <script src="./js/modal.js"></script>
+    <script src="./js/menu.js"></script>
   </body>
 </html>
