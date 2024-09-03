@@ -549,6 +549,8 @@ img {
   fill: #f4f4fd;
 }
 
+/* #region modal */
+
 /* modal window */
 
 .backdrop {
@@ -781,6 +783,8 @@ img {
   border: transparent;
   min-width: 169px;
 }
+
+/* #endregion modal */
 
 /* footer form */
 
