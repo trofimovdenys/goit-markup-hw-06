@@ -809,3 +809,89 @@ img {
   letter-spacing: 0.02em;
   color: #434455;
 }
+
+@media screen and (min-width: 768px) {
+  .sec-two-list > li {
+    flex-basis: calc((100% - 24px) / 2);
+  }
+
+  .heading-advantages {
+    text-align: left;
+  }
+
+  .sec-two-list {
+    column-gap: 24px;
+    row-gap: 72px;
+  }
+}
+
+@media screen and (min-width: 1158px) {
+  .icon-container {
+    width: 264px;
+    height: 112px;
+    border: 1px solid #8e8f99;
+    border-radius: 4px;
+    background-color: #f4f4fd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 8px;
+  }
+
+  .heading-advantages {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+  }
+
+  .description-advantages {
+    font-weight: 400;
+  }
+
+  .sec-two-list > li {
+    flex-basis: calc((100% - 72px) / 4);
+  }
+
+  .section.section-two-padding {
+    padding: 120px 0;
+  }
+
+  .container.cont-sec-two {
+    padding: 0;
+  }
+}
+
+/* section three mobile */
+
+.container.cont-section-three {
+  padding: 0;
+}
+
+.background-clr-sec-three {
+  padding: 96px 28px;
+  background-color: #f4f4fd;
+}
+
+.title-section-three {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
+  margin-bottom: 72px;
+}
+
+.list-card-team {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.team-cards-color {
+  border-radius: 0 0 4px 4px;
+  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
+    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+  justify-content: center;
+}
